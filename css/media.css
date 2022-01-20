@@ -1,0 +1,62 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+
+/*------- Common CSS Ends -------*/
+
+/*------- Coming Soon Page Starts -------*/
+
+.bg-coming-soon::after { height: 35vh; }
+.coming-soon-logo > img { width: 120px; }
+.coming-soon-text > h1 { font-size: 3rem; letter-spacing: 4px; }
+.coming-soon-contact-address > h4,
+.coming-soon-contact-address > h5 { font-size: 1.6rem; width: 90%; }
+.coming-soon-camera { bottom: -15px; left: -15px; }
+.coming-soon-camera > img { width: 75px; }
+
+/*------- Coming Soon Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+
+/*------- Common CSS Ends -------*/
+
+/*------- Coming Soon Page Starts -------*/
+
+.bg-coming-soon::after { height: 50vh; }
+.coming-soon-logo > img { width: 120px; }
+.coming-soon-text > h1 { font-size: 7rem; letter-spacing: 7px; }
+.coming-soon-contact-address > h4,
+.coming-soon-contact-address > h5 { font-size: 1.8rem; width: 90%; }
+.coming-soon-camera { bottom: -30px; left: -30px; }
+.coming-soon-camera > img { width: 120px; }
+
+/*------- Coming Soon Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+
+/*------- Common CSS Ends -------*/
+
+/*------- Coming Soon Page Starts -------*/
+
+.bg-coming-soon::after { height: 50vh; }
+.coming-soon-logo > img { width: 120px; }
+.coming-soon-text > h1 { font-size: 7rem; letter-spacing: 7px; }
+.coming-soon-contact-address > h4,
+.coming-soon-contact-address > h5 { font-size: 1.8rem; width: 90%; }
+.coming-soon-camera { bottom: -30px; left: -30px; }
+.coming-soon-camera > img { width: 120px; }
+
+/*------- Coming Soon Page Ends -------*/
+
+}
