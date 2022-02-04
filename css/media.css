@@ -9,11 +9,12 @@
 
 .bg-coming-soon::after { height: 35vh; }
 .coming-soon-logo > img { width: 120px; }
-.coming-soon-text > h1 { font-size: 3rem; letter-spacing: 4px; }
+.coming-soon-text > h1 { font-size: 3.6rem; letter-spacing: 4px; }
+.coming-soon-contact-address { bottom: 15%; }
 .coming-soon-contact-address > h4,
 .coming-soon-contact-address > h5 { font-size: 1.6rem; width: 90%; }
 .coming-soon-camera { bottom: -15px; left: -15px; }
-.coming-soon-camera > img { width: 75px; }
+.coming-soon-camera > img { width: 125px; }
 
 /*------- Coming Soon Page Ends -------*/
 
