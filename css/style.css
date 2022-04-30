@@ -1,7 +1,7 @@
 /*------- Font Family Starts -------*/
 
 @font-face { font-family: "Cocomat-Light"; src: url("../fonts/Cocomat-Light.ttf"); }
-@font-face { font-family: "Baskervville-Old-Face"; src: url("../fonts/Baskervville-Old-Face.ttf"); }
+@font-face { font-family: "Baskervville-Regular"; src: url("../fonts/Baskervville-Regular.ttf"); }
 @font-face { font-family: "Baskervville-Italic"; src: url("../fonts/Baskervville-Italic.ttf"); }
 
 /*------- Font Family Ends -------*/
@@ -33,7 +33,7 @@ body { background-color: #141414; }
 .d-flex { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 .align-items-center { -webkit-align-items: center; align-items: center; }
 .justify-content-flex-end { justify-content: flex-end; }
-.section-heading > h2 { color: #ffffff; font: 5rem/1.2 "Baskervville-Old-Face"; margin-bottom: 50px; position: relative; z-index: 1; }
+.section-heading > h2 { color: #ffffff; font: 5rem/1.2 "Baskervville-Regular"; margin-bottom: 50px; position: relative; z-index: 1; }
 .section-heading > h2::before,
 .section-heading > h2::after {
   background-color: #ffffff;
@@ -177,8 +177,8 @@ p { color: #ffffff; font: 1.8rem/1.7 "Quicksand-Medium"; }
 .our-team-img-info-home > img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 400px; margin: 0 auto 15px; object-fit: cover; padding: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 400px; }
 .our-team-img-info-home > img:hover { -webkit-filter: grayscale(1); filter: grayscale(1); }
 .our-team-info-home { background-color: #cccccc; margin: 0 30px; padding: 30px; }
-.our-team-info-home > h4 { color: #000000; font: 3rem/1 "Baskervville-Old-Face"; margin-bottom: 20px; }
-.our-team-info-home > h5 { color: #000000; font: 2.4rem/1 "Baskervville-Old-Face"; }
+.our-team-info-home > h4 { color: #000000; font: 3rem/1 "Baskervville-Regular"; margin-bottom: 20px; }
+.our-team-info-home > h5 { color: #000000; font: 2.4rem/1 "Baskervville-Regular"; }
 .our-team-info-home > h5 > span { display: block; margin-top: 5px; }
 
   /*------- Our Team Section Ends -------*/
@@ -191,8 +191,8 @@ p { color: #ffffff; font: 1.8rem/1.7 "Quicksand-Medium"; }
 .box-blog-img-info-home > img { -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; margin-bottom: 15px; }
 .box-blog-info-home > p { margin-bottom: 15px; }
 .box-blog-info-home > p > span:first-child { background-color: #e7e7e7; color: #000000; display: inline-block; font: 1.6rem/1.2 "Baskervville-Italic";  padding: 5px 10px; text-align: center; }
-.box-blog-info-home > p > span:last-child { color: #ffffff; font: 1.6rem/1.2 "Baskervville-Old-Face"; padding-left: 10px; }
-.box-blog-info-home > h6 { color: #ffffff; font: 1.8rem/1.25 "Baskervville-Old-Face"; }
+.box-blog-info-home > p > span:last-child { color: #ffffff; font: 1.6rem/1.2 "Baskervville-Regular"; padding-left: 10px; }
+.box-blog-info-home > h6 { color: #ffffff; font: 1.8rem/1.25 "Baskervville-Regular"; }
 .dvs-slick-slider .slick-slide { padding: 0 15px; }
 .dvs-slick-slider .slick-prev,
 .dvs-slick-slider .slick-next { height: 50px; width: 50px; z-index: 11; }
@@ -217,16 +217,16 @@ p { color: #ffffff; font: 1.8rem/1.7 "Quicksand-Medium"; }
 
 .bg-footer { background-color: #000000; padding: 100px 15px; }
 .footer-info > p { color: #d7d7d7; font: 2.4rem/1 "Baskervville-Italic"; margin-bottom: 15px; }
-.footer-info > h2 { color: #ffffff; font: 5rem/1.25 "Baskervville-Old-Face"; }
+.footer-info > h2 { color: #ffffff; font: 5rem/1.25 "Baskervville-Regular"; }
 .footer-info > h2 > span { display: block; }
 .read-more-wwu-foo > a { background-color: transparent; border: 1px solid #ffffff; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; color: #ffffff; font-family: "Baskervville-Italic"; }
 .read-more-wwu-foo > a:hover { background-color: #ffffff; color: #000000; }
-.footer-contact-info > p:first-child { color: #ffffff; font: 2.4rem/1 "Baskervville-Old-Face"; margin-bottom: 30px; }
+.footer-contact-info > p:first-child { color: #ffffff; font: 2.4rem/1 "Baskervville-Regular"; margin-bottom: 30px; }
 .footer-contact-info > p:nth-child(2),
-.footer-contact-info > p:nth-child(3) { color: #ffffff; font: 2rem/1 "Baskervville-Old-Face"; margin-bottom: 10px; }
+.footer-contact-info > p:nth-child(3) { color: #ffffff; font: 2rem/1 "Baskervville-Regular"; margin-bottom: 10px; }
 .footer-contact-info > p:nth-child(3) { margin-bottom: 30px; }
 .footer-contact-info > p:last-child { margin-bottom: 0; }
-.footer-contact-info > h4 { color: #ffffff; font: 2.4rem/1 "Baskervville-Old-Face"; margin-bottom: 30px; }
+.footer-contact-info > h4 { color: #ffffff; font: 2.4rem/1 "Baskervville-Regular"; margin-bottom: 30px; }
 .footer-contact-info > h4 > span { display: block; margin-bottom: 10px; }
 .footer-contact-info > p > a { color: #d7d7d7; }
 .footer-contact-info > p > a:hover { color: #ffc107; letter-spacing: 2px; }
