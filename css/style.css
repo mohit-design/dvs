@@ -48,7 +48,7 @@ body { background-color: #141414; }
   left: auto;
   right: 0;
 }
-p { color: #ffffff; font: 1.8rem/1.7 "Quicksand-Medium"; }
+p { color: #ffffff; font: 1.8rem/1.7 "Baskervville-Regular"; }
 .read-more > a { background-color: #ffc107; border: 1px solid #ffc107; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; color: #ffffff; display: inline-block; font: 1.8rem/1.4 "Quicksand-Medium"; margin: 30px 0 0; padding: 10px 25px; text-align: center; }
 .read-more > a:hover { background-color: transparent; border: 1px solid #000000; color: #000000; }
 
@@ -239,10 +239,67 @@ p { color: #ffffff; font: 1.8rem/1.7 "Quicksand-Medium"; }
 
 /*------- Home Page Ends -------*/
 
+/*------- About Us Page Starts -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-section-heading-ap > h2::before { width: 40%; }
+.about-section-heading-ap > h2:after { width: 40%; }
+.about-logo-ap { margin: 30px 0 0; width: 170px; }
+.about-info-ap > p { margin-bottom: 30px; }
+.social-listing-ap > li { display: inline-block; margin-right: 15px; }
+.social-listing-ap > li:last-child { margin-right: 0; }
+.social-listing-ap > li > a { color: #ffffff; font-size: 1.8rem; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Team Section Starts -------*/
+
+.team-section-heading-ap > h2::before { width: 40%; }
+.team-section-heading-ap > h2:after { width: 40%; }
+.our-team-img-info-ap { margin-bottom: 50px; }
+.our-team-img-info-ap > img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 400px; margin: 0 auto 15px; object-fit: cover; padding: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 400px; }
+.our-team-img-info-ap > img:hover { -webkit-filter: grayscale(1); filter: grayscale(1); }
+.our-team-info-ap > h4 { color: #ffffff; font: 3rem/1 "Baskervville-Regular"; margin-bottom: 20px; }
+.our-team-info-ap > h5 { color: #ffffff; font: 2.4rem/1 "Baskervville-Regular"; }
+.our-team-info-ap > h5 > span { display: block; margin-top: 5px; }
+
+  /*------- Team Section Ends -------*/
+
+  /*------- Clients Section Starts -------*/
+
+.clients-section-heading-ap > h2::before { width: 40%; }
+.clients-section-heading-ap > h2:after { width: 40%; }
+.clients-images-ap > img { margin: 0 auto 30px; width: 170px; }
+
+  /*------- Clients Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
 /*------- Work Page Starts -------*/
 
   /*------- Short Films Section Starts -------*/
 
+.short-films-section-heading-wp > h2::before { width: 35%; }
+.short-films-section-heading-wp > h2::after { width: 35%; }
+.corporate-films-section-heading-wp > h2::before { width: 30%; }
+.corporate-films-section-heading-wp > h2::after { width: 30%; }
+.documentaries-section-heading-wp > h2::before { width: 33%; }
+.documentaries-section-heading-wp > h2::after { width: 33%; }
+.interior-design-films-section-heading-wp > h2::before { width: 27%; }
+.interior-design-films-section-heading-wp > h2::after { width: 27%; }
+.add-films-section-heading-wp > h2::before { width: 38%; }
+.add-films-section-heading-wp > h2::after { width: 38%; }
+.stop-motion-films-section-heading-wp > h2::before { width: 29%; }
+.stop-motion-films-section-heading-wp > h2::after { width: 29%; }
+.twod-animation-section-heading-wp > h2::before { width: 35%; }
+.twod-animation-section-heading-wp > h2::after { width: 35%; }
+.photography-section-heading-wp > h2::before { width: 35%; }
+.photography-section-heading-wp > h2::after { width: 35%; }
+.music-section-heading-wp > h2::before { width: 42%; }
+.music-section-heading-wp > h2::after { width: 42%; }
+.bts-section-heading-wp > h2::before { width: 44%; }
+.bts-section-heading-wp > h2::after { width: 44%; }
 .box-short-films-img-wp > img { border: 1px solid #000000; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; padding: 10px; width: 100%; }
 
   /*------- Short Films Section Ends -------*/
