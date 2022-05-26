@@ -9,6 +9,13 @@ $(function() {
     slidesToScroll: 1,
     responsive: [
       {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
@@ -17,13 +24,6 @@ $(function() {
       },
       {
         breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 575,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
