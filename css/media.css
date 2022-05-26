@@ -2,6 +2,15 @@
 
 /*------- Common CSS Starts -------*/
 
+.container-fluid { padding: 15px 15px 0; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.section-heading > h2::before,
+.section-heading > h2::after { display: none; }
+p { font-size: 1.6rem; text-align: justify; }
+.dvs-slick-slider .slick-prev { height: 30px; left: -5px; width: 30px; }
+.dvs-slick-slider .slick-next { height: 30px; right: -5px; width: 30px; }
+.dvs-slick-slider .slick-prev::before,
+.dvs-slick-slider .slick-next::before { font-size: 3rem; }
 
 /*------- Common CSS Ends -------*/
 
@@ -18,12 +27,142 @@
 
 /*------- Coming Soon Page Ends -------*/
 
+/*------- Home Page Starts -------*/
+
+  /*------- Header Section Starts -------*/
+
+.bg-header { display: none; }
+
+  /*------- Header Section Ends -------*/
+
+  /*------- Video Section Starts -------*/
+
+.bg-banner-video-home,
+.banner-video { height: 50vh; }
+
+  /*------- Video Section Ends -------*/
+
+  /*------- Our Services Section Starts -------*/
+
+.our-services-img-info-home { height: 300px; margin: 0 auto 30px; width: 300px; }
+.our-services-img-info-home > img { height: 300px; width: 300px; }
+.our-services-info-home > h4 { font-size: 2.4rem; }
+
+  /*------- Our Services Section Ends -------*/
+
+  /*------- Our Team Section Starts -------*/
+
+.our-team-img-info-home { margin-bottom: 30px; }
+.our-team-img-info-home > img { height: 300px; width: 300px; }
+.our-team-img-info-home > img:hover { -webkit-filter: grayscale(1); filter: grayscale(1); }
+.our-team-info-home { background-color: #cccccc; margin: 0 30px; padding: 15px; }
+.our-team-info-home > h4 { font-size: 2.4rem; margin-bottom: 10px; }
+.our-team-info-home > h5 { font-size: 1.8rem; }
+.our-team-info-home > h5 > span { display: block; margin-top: 5px; }
+
+  /*------- Our Team Section Ends -------*/
+
+  /*------- Our Blog Section Starts -------*/
+
+.box-blog-info-home > p > span:last-child { display: block; margin-top: 10px; padding-left: 0; }
+.box-blog-info-home > h6 { font-size: 1.6rem; }
+
+  /*------- Our Blog Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 15px; }
+.footer-info > p { font-size: 1.6rem; }
+.footer-info > h2 { font-size: 3rem; }
+.read-more-wwu-foo > a { margin: 15px 0 30px; }
+.footer-contact-info > p:first-child { margin-bottom: 15px; }
+.footer-contact-info > p:nth-child(2),
+.footer-contact-info > p:nth-child(3) { font-size: 1.6rem; }
+.footer-contact-info > h4 { font-size: 1.8rem; }
+.footer-social-listing > li > a { font-size: 1.6rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-section-heading-ap > h2 { margin-bottom: 30px; }
+.about-logo-ap { margin: 0 auto 30px; }
+.about-logo-ap > img { margin: 0 auto 30px; width: 100px; }
+.about-info-ap > p { margin-bottom: 15px; }
+.social-listing-ap > li > a { font-size: 1.6rem; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Team Section Starts -------*/
+
+.bg-team-ap { padding: 30px 15px 0; }
+.our-team-img-info-ap { margin-bottom: 15px; }
+.our-team-img-info-ap > img { height: 300px; width: 300px; }
+.our-team-info-ap > h4 { font-size: 2.4rem; margin-bottom: 10px; }
+.our-team-info-ap > h5 { font-size: 1.8rem; }
+.our-team-info-ap > h5 > span { display: block; margin-top: 5px; }
+.our-team-desc-ap > p { margin-bottom: 15px; }
+.our-team-desc-ap > p:last-child { margin-bottom: 30px; }
+
+  /*------- Team Section Ends -------*/
+
+  /*------- Clients Section Starts -------*/
+
+.col-offset-1-point-5 { margin-left: 0; }
+.clients-images-ap > img { margin: 0 auto 30px; width: 100px; }
+
+  /*------- Clients Section Ends -------*/
+
+/*------- About Page Ends -------*/
+
+/*------- Work Page Starts -------*/
+
+  /*------- Short Films Section Starts -------*/
+
+.short-films-section-heading-wp > h2::before { width: 35%; }
+.short-films-section-heading-wp > h2::after { width: 35%; }
+.corporate-films-section-heading-wp > h2::before { width: 30%; }
+.corporate-films-section-heading-wp > h2::after { width: 30%; }
+.documentaries-section-heading-wp > h2::before { width: 33%; }
+.documentaries-section-heading-wp > h2::after { width: 33%; }
+.interior-design-films-section-heading-wp > h2::before { width: 27%; }
+.interior-design-films-section-heading-wp > h2::after { width: 27%; }
+.add-films-section-heading-wp > h2::before { width: 38%; }
+.add-films-section-heading-wp > h2::after { width: 38%; }
+.stop-motion-films-section-heading-wp > h2::before { width: 29%; }
+.stop-motion-films-section-heading-wp > h2::after { width: 29%; }
+.twod-animation-section-heading-wp > h2::before { width: 35%; }
+.twod-animation-section-heading-wp > h2::after { width: 35%; }
+.photography-section-heading-wp > h2::before { width: 35%; }
+.photography-section-heading-wp > h2::after { width: 35%; }
+.music-section-heading-wp > h2::before { width: 42%; }
+.music-section-heading-wp > h2::after { width: 42%; }
+.bts-section-heading-wp > h2::before { width: 44%; }
+.bts-section-heading-wp > h2::after { width: 44%; }
+.box-short-films-img-wp > img { padding: 10px; width: 100%; }
+
+  /*------- Short Films Section Ends -------*/
+
+/*------- Work Page Ends -------*/
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 /*------- Common CSS Starts -------*/
 
+.container-fluid { padding: 30px 15px 0; }
+.section-heading > h2 { font-size: 3rem; margin-bottom: 30px; }
+.section-heading > h2::before,
+.section-heading > h2::after { display: none; }
+.dvs-slick-slider .slick-prev { height: 30px; left: -10px; width: 30px; }
+.dvs-slick-slider .slick-next { height: 30px; right: -10px; width: 30px; }
+.dvs-slick-slider .slick-prev::before,
+.dvs-slick-slider .slick-next::before { font-size: 4rem; }
 
 /*------- Common CSS Ends -------*/
 
@@ -38,6 +177,98 @@
 .coming-soon-camera > img { width: 120px; }
 
 /*------- Coming Soon Page Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Header Section Starts -------*/
+
+.bg-header { padding: 15px; }
+.header-logo > a > img { width: 100px; }
+.menu-listing-desktop > li { margin-right: 50px; }
+
+  /*------- Header Section Ends -------*/
+
+  /*------- Our Services Section Starts -------*/
+
+.our-services-img-info-home { height: 300px; width: 300px; }
+.our-services-img-info-home > img { height: 300px; width: 300px; }
+.our-services-info-home > h4 { font-size: 2.4rem; }
+
+  /*------- Our Services Section Ends -------*/
+
+  /*------- Our Team Section Starts -------*/
+
+.our-team-img-info-home > img { height: 300px; width: 300px; }
+.our-team-img-info-home > img:hover { -webkit-filter: grayscale(1); filter: grayscale(1); }
+.our-team-info-home { background-color: #cccccc; margin: 0 30px; padding: 15px; }
+.our-team-info-home > h4 { font-size: 2.4rem; margin-bottom: 10px; }
+.our-team-info-home > h5 { font-size: 1.8rem; }
+.our-team-info-home > h5 > span { display: block; margin-top: 5px; }
+
+  /*------- Our Team Section Ends -------*/
+
+  /*------- Our Blog Section Starts -------*/
+
+.box-blog-info-home > p > span:last-child { display: block; margin-top: 10px; padding-left: 0; }
+.box-blog-info-home > h6 { font-size: 1.6rem; }
+
+  /*------- Our Blog Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 30px 15px; }
+.footer-info > p { font-size: 1.8rem; }
+.footer-info > h2 { font-size: 4rem; margin-bottom: 10px; }
+.read-more-wwu-foo > a { margin: 15px 0 0; }
+.footer-contact-info > p:first-child { margin-bottom: 15px; }
+.footer-contact-info > p:nth-child(2),
+.footer-contact-info > p:nth-child(3) { font-size: 1.8rem; }
+.footer-social-listing > li > a { font-size: 1.8rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-section-heading-ap > h2 { margin-bottom: 30px; }
+.about-logo-ap > img { margin: 0 auto; }
+.about-info-ap > p { margin-bottom: 30px; text-align: justify; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Team Section Starts -------*/
+
+.bg-team-ap { padding: 30px 15px 0; }
+.our-team-img-info-ap { margin-bottom: 15px; }
+.our-team-img-info-ap > img { height: 300px; width: 300px; }
+.our-team-info-ap > h4 { font-size: 2.4rem; margin-bottom: 10px; }
+.our-team-info-ap > h5 { font-size: 1.8rem; }
+.our-team-info-ap > h5 > span { display: block; margin-top: 5px; }
+.our-team-desc-ap > p { margin-bottom: 15px; text-align: justify; }
+.our-team-desc-ap > p:last-child { margin-bottom: 30px; }
+
+  /*------- Team Section Ends -------*/
+
+  /*------- Clients Section Starts -------*/
+
+.clients-images-ap > img { margin: 0 auto 30px; width: 100px; }
+
+  /*------- Clients Section Ends -------*/
+
+/*------- About Page Ends -------*/
+
+/*------- Work Page Starts -------*/
+
+  /*------- Short Films Section Starts -------*/
+
+.bg-bts-wp { padding: 30px 15px 30px; }
+
+  /*------- Short Films Section Ends -------*/
+
+/*------- Work Page Ends -------*/
 
 }
 
@@ -45,6 +276,14 @@
 
 /*------- Common CSS Starts -------*/
 
+.container-fluid { padding: 30px 15px 0; }
+.section-heading > h2 { font-size: 3rem; margin-bottom: 30px; }
+.section-heading > h2::before,
+.section-heading > h2::after { display: none; }
+.dvs-slick-slider .slick-prev { height: 30px; left: -10px; width: 30px; }
+.dvs-slick-slider .slick-next { height: 30px; right: -10px; width: 30px; }
+.dvs-slick-slider .slick-prev::before,
+.dvs-slick-slider .slick-next::before { font-size: 4rem; }
 
 /*------- Common CSS Ends -------*/
 
@@ -59,5 +298,97 @@
 .coming-soon-camera > img { width: 120px; }
 
 /*------- Coming Soon Page Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Header Section Starts -------*/
+
+.bg-header { padding: 15px; }
+.header-logo > a > img { width: 100px; }
+.menu-listing-desktop > li { margin-right: 50px; }
+
+  /*------- Header Section Ends -------*/
+
+  /*------- Our Services Section Starts -------*/
+
+.our-services-img-info-home { height: 300px; width: 300px; }
+.our-services-img-info-home > img { height: 300px; width: 300px; }
+.our-services-info-home > h4 { font-size: 2.4rem; }
+
+  /*------- Our Services Section Ends -------*/
+
+  /*------- Our Team Section Starts -------*/
+
+.our-team-img-info-home > img { height: 300px; width: 300px; }
+.our-team-img-info-home > img:hover { -webkit-filter: grayscale(1); filter: grayscale(1); }
+.our-team-info-home { background-color: #cccccc; margin: 0 30px; padding: 15px; }
+.our-team-info-home > h4 { font-size: 2.4rem; margin-bottom: 10px; }
+.our-team-info-home > h5 { font-size: 1.8rem; }
+.our-team-info-home > h5 > span { display: block; margin-top: 5px; }
+
+  /*------- Our Team Section Ends -------*/
+
+  /*------- Our Blog Section Starts -------*/
+
+.box-blog-info-home > p > span:last-child { display: block; margin-top: 10px; padding-left: 0; }
+.box-blog-info-home > h6 { font-size: 1.6rem; }
+
+  /*------- Our Blog Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 30px 15px; }
+.footer-info > p { font-size: 1.8rem; }
+.footer-info > h2 { font-size: 4rem; margin-bottom: 10px; }
+.read-more-wwu-foo > a { margin: 15px 0 0; }
+.footer-contact-info > p:first-child { margin-bottom: 15px; }
+.footer-contact-info > p:nth-child(2),
+.footer-contact-info > p:nth-child(3) { font-size: 1.8rem; }
+.footer-social-listing > li > a { font-size: 1.8rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-section-heading-ap > h2 { margin-bottom: 30px; }
+.about-logo-ap > img { margin: 0 auto; }
+.about-info-ap > p { margin-bottom: 30px; text-align: justify; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Team Section Starts -------*/
+
+.bg-team-ap { padding: 30px 15px 0; }
+.our-team-img-info-ap { margin-bottom: 15px; }
+.our-team-img-info-ap > img { height: 300px; width: 300px; }
+.our-team-info-ap > h4 { font-size: 2.4rem; margin-bottom: 10px; }
+.our-team-info-ap > h5 { font-size: 1.8rem; }
+.our-team-info-ap > h5 > span { display: block; margin-top: 5px; }
+.our-team-desc-ap > p { margin-bottom: 15px; text-align: justify; }
+.our-team-desc-ap > p:last-child { margin-bottom: 30px; }
+
+  /*------- Team Section Ends -------*/
+
+  /*------- Clients Section Starts -------*/
+
+.clients-images-ap > img { margin: 0 auto 30px; width: 100px; }
+
+  /*------- Clients Section Ends -------*/
+
+/*------- About Page Ends -------*/
+
+/*------- Work Page Starts -------*/
+
+  /*------- Short Films Section Starts -------*/
+
+.bg-bts-wp { padding: 30px 15px 30px; }
+
+  /*------- Short Films Section Ends -------*/
+
+/*------- Work Page Ends -------*/
 
 }

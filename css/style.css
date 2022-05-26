@@ -245,7 +245,8 @@ p { color: #ffffff; font: 1.8rem/1.7 "Baskervville-Regular"; }
 
 .about-section-heading-ap > h2::before { width: 40%; }
 .about-section-heading-ap > h2:after { width: 40%; }
-.about-logo-ap { margin: 30px 0 0; width: 170px; }
+.about-logo-ap { margin: 30px 0 0; }
+.about-logo-ap > img { width: 170px; }
 .about-info-ap > p { margin-bottom: 30px; }
 .social-listing-ap > li { display: inline-block; margin-right: 15px; }
 .social-listing-ap > li:last-child { margin-right: 0; }
@@ -270,6 +271,7 @@ p { color: #ffffff; font: 1.8rem/1.7 "Baskervville-Regular"; }
 
 .clients-section-heading-ap > h2::before { width: 40%; }
 .clients-section-heading-ap > h2:after { width: 40%; }
+.col-offset-1-point-5 { margin-left: 12.5%; }
 .clients-images-ap > img { margin: 0 auto 30px; width: 170px; }
 
   /*------- Clients Section Ends -------*/
@@ -300,7 +302,7 @@ p { color: #ffffff; font: 1.8rem/1.7 "Baskervville-Regular"; }
 .music-section-heading-wp > h2::after { width: 42%; }
 .bts-section-heading-wp > h2::before { width: 44%; }
 .bts-section-heading-wp > h2::after { width: 44%; }
-.box-short-films-img-wp > img { border: 1px solid #000000; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; padding: 10px; width: 100%; }
+.box-short-films-img-wp > img { padding: 10px; width: 100%; }
 
   /*------- Short Films Section Ends -------*/
 
