@@ -1,4 +1,11 @@
 $(function() {
+  // Burger Menu and Mobile Menu JS
+  $(".burger-menu").click(function() {
+    $(this).toggleClass("active");
+    $("body").toggleClass("active");
+    $(".fixed-mobile-menu").toggleClass("active");
+    $(".menu-listing-header").toggleClass("active");
+  });
   // Our Blogs Slick Slider JS
   $(".our-blogs-slick-slider-home").slick({
     arrows: true,
