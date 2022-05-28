@@ -87,6 +87,13 @@ p { color: #ffffff; font: 1.8rem/1.7 "Baskervville-Regular"; }
 
 /*------- Home Page Starts -------*/
 
+  /*------- Mobile Header and Menu Section Starts -------*/
+
+.bg-header-mobile,
+.fixed-mobile-menu { display: none; }
+
+  /*------- Mobile Header and Menu Section Ends -------*/
+
   /*------- Header Section Starts -------*/
 
 .bg-header { left: 0; padding: 10px 15px; position: absolute; top: 0; width: 100%; z-index: 3; }

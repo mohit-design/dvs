@@ -2,6 +2,7 @@
 
 /*------- Common CSS Starts -------*/
 
+body.active { overflow: hidden; }
 .container-fluid { padding: 15px 15px 0; }
 .section-heading > h2 { font-size: 2.4rem; margin-bottom: 15px; }
 .section-heading > h2::before,
@@ -28,6 +29,80 @@ p { font-size: 1.6rem; text-align: justify; }
 /*------- Coming Soon Page Ends -------*/
 
 /*------- Home Page Starts -------*/
+
+  /*------- Mobile Header Section Starts -------*/
+
+.bg-header-mobile { display: block; left: 0; padding: 15px 15px 10px; position: fixed; top: 0; width: 100%; z-index: 10; }
+.header-logo-mobile { display: -webkit-inline-flex; display: -webkit-inline-box; display: inline-flex; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { height: 60px; }
+
+    /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 50px; margin-left: auto; position: relative; width: 50px; }
+.burger-menu span { background-color: #ffffff; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 25px; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #ffffff; content: ""; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 25px; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s linear; -moz-transition: 0s linear; -ms-transition: 0s linear; -o-transition: 0s linear; transition: 0s linear; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+    /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Header Section Ends -------*/
+
+  /*------- Mobile Menu Section Starts -------*/
+
+.fixed-mobile-menu { display: block; }
+.fixed-mobile-menu::before {
+  background-color: #000000;
+  content: "";
+  height: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  -webkit-transition: 1s ease 1s;
+  -moz-transition: 1s ease 1s;
+  -ms-transition: 1s ease 1s;
+  -o-transition: 1s ease 1s;
+  transition: 1s ease 1s;
+  width: 100%;
+  z-index: 9;
+}
+.fixed-mobile-menu::after {
+  background-color: #000000;
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: fixed;
+  -webkit-transition: 1s ease 1s;
+  -moz-transition: 1s ease 1s;
+  -ms-transition: 1s ease 1s;
+  -o-transition: 1s ease 1s;
+  transition: 1s ease 1s;
+  width: 100%;
+  z-index: 9;
+}
+.fixed-mobile-menu.active::before,
+.fixed-mobile-menu.active::after {
+  height: 50%;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+}
+.menu-listing-header { left: 50%; opacity: 0; position: fixed; top: 45%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 1s ease 0s; -moz-transition: 1s ease 0s; -ms-transition: 1s ease 0s; -o-transition: 1s ease 0s; transition: 1s ease 0s; visibility: hidden; z-index: 11; }
+.menu-listing-header.active { opacity: 1; top: 50%; -webkit-transition: 1s ease 1s; -moz-transition: 1s ease 1s; -ms-transition: 1s ease 1s; -o-transition: 1s ease 1s; transition: 1s ease 1s; visibility: visible; }
+.menu-listing-header > li { display: block; margin-bottom: 20px; }
+.menu-listing-header > li:last-child { margin-bottom: 0; }
+.menu-listing-header > li > a { color: #ffffff; display: block; font: 1.8rem/1.2 "Cocomat-Light"; text-transform: uppercase; }
+.menu-listing-header > li.active > a,
+.menu-listing-header > li > a:hover { color: #ffc107; }
+
+  /*------- Mobile Menu Section Ends -------*/
 
   /*------- Header Section Starts -------*/
 
